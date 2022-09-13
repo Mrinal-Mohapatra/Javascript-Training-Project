@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <title>POKEDEX TABLE</title>
+
+
+    <link rel="stylesheet"  href="main.css">
+    
+</head>   
+  <body>
+                    <h1>POKEDEX TABLE</h1>
+    <div  > 
+
+    <table>
+        <thead>
+            <tr >
+                <th> ID</th>
+
+                <th>NAME</th>
+
+                <th>HEIGHT</th>
+
+                <th>WEIGHT</th>
+
+                <th>TYPE</th>
+            </tr>
+       </thead>
+         <tbody  id="data">
+
+         </tbody>
+    </table>
+    <br>
+</div>
+
+<div class="btn-group">
+    <a href="#" class="previous round">&#8249;</a>
+<button onclick="fun1()">1</button>
+<button onclick="fun2()">2</button>
+ <button onclick="fun3()">3</button>
+<a href="#" class="next round" onclick="fun4()">&#8250;</a>
+</div>
+
+
+
+ <script src="main.js" ></script>
+ 
+ <script >
+    function fun2(){
+        fetch("pokemon.json")
+ .then(function(response){
+    return response.json();
+
+})
+.then(function(data){
+    for(var i=5;i<10;i++){
+    
+      document.getElementById("data").innerHTML+=
+         
+       data[i].id+"       "+data[i].name+"            "+data[i].height+"        "+data[i].weight+"            "+data[i].type;
+    
+    }
+})
+    .catch(function(err){
+        console.log(err)
+    });
+     };
+   </script>
+   <script >
+    function fun3(){
+        fetch("pokemon.json")
+ .then(function(response){
+    return response.json();
+
+})
+.then(function(data){
+    for(var i=10;i<15;i++){
+    
+      document.getElementById("data").innerHTML+=
+         
+       data[i].id+"       "+data[i].name+"            "+data[i].height+"        "+data[i].weight+"            "+data[i].type;
+    
+    }
+})
+    .catch(function(err){
+        console.log(err)
+    });
+     };
+   </script>
+   <script >
+    function fun4(){
+        fetch("pokemon.json")
+ .then(function(response){
+    return response.json();
+
+})
+.then(function(data){
+    for(var i=15;i<=20;i++){
+    
+      document.getElementById("data").innerHTML+=
+         
+       data[i].id+"       "+data[i].name+"            "+data[i].height+"        "+data[i].weight+"            "+data[i].type;
+    
+    }
+})
+    .catch(function(err){
+        console.log(err)
+    });
+     };
+   </script>
+
+ </body>       
+ </html>
+
+           

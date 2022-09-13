@@ -1,0 +1,62 @@
+h1{ text-align: center;
+    color: #03C6C7;
+}
+div{
+    text-align: center;
+
+}
+table{
+
+    width: 500px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+th{
+    color:#8D3DAF ;
+    text-align: center;
+    padding: 100px;
+    
+
+}
+td{
+  text-align: center;
+  background-color:#CAD5E2;
+  padding: 20px;
+
+}
+.btn-group button {
+    display: inline-block;
+    background-color: #04AA6D; 
+    border: 2px solid #fff; 
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer; 
+     
+  }
+body{
+    background-color: rgb(252, 250, 249);
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }

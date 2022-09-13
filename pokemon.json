@@ -1,0 +1,192 @@
+[{
+    "id":1,
+    "name":"Bulbasaur",
+    "height": "0.71 m",
+    "weight": "6.9 kg",
+    "type": [
+        "Grass",
+        "Poison"
+      ]
+    },
+ {  
+    "id":2,
+    "name":"Ivysaur",
+    "height": "0.789 m",
+    "weight": "5.9 kg",
+    "type": [
+        "Fire",
+        "Poison"
+      ]
+    },
+{
+    "id":3,
+    "name":"Venusaur",
+    "height": "1.71 m",
+    "weight": "9.9 kg",
+    "type": "Grass"
+    },
+      
+    {
+    "id":4,
+    "name":"Charmander",
+    "height": "2.71 m",
+    "weight": "63.9 kg",
+    "type": [
+        "Grass",
+        "Poison",
+        "Rock"
+      ]
+
+    },
+    {
+    "id":5,
+    "name":"Squirtle",
+    "height": "6.71 m",
+    "weight": "93.8 kg",
+    "type": [
+            "Grass",
+            "Rock"
+          ]
+    
+    },
+    {
+    "id":6,
+    "name":"Charmander",
+    "height": "8.71 m",
+    "weight": "43.5 kg",
+    "type": ["Fire",
+            "Grass",
+            "Poison"
+           
+          ]
+    
+    },
+    {
+    "id":7,
+     "name":"Charmander",
+    "height": "7.71 m",
+    "weight": "63.9 kg",
+    "type": "Grass"
+            
+          
+    
+    },
+    {
+    "id":8,
+    "name":"Wartortle",
+    "height": "7.71 m",
+    "weight": "67.9 kg",
+    "type": ["Poison",
+            "Rock"
+          ]
+    
+    },
+    {
+    "id":9,
+    "name":"Blastoise",
+    "height": "2.71 m",
+    "weight": "63.9 kg",
+     "type": ["Fire",
+            "Grass",
+            "Poison"
+            
+          ]
+    
+    },
+    {
+     "id":10,
+    "name":"Charmander",
+        "height": "1.89 m",
+        "weight": "79.9 kg",
+        "type": "Grass"
+            
+    
+    },
+    {
+        "id":11,
+        "name":"Caterpie",
+        "height": "8.71 m",
+        "weight": "88.9 kg",
+        "type": "Rock"
+          
+    
+    },
+    {
+        "id":12,
+        "name":"Metapod",
+        "height": "2.71 m",
+        "weight": "63.9 kg",
+        "type": ["Fire",
+            "Grass",
+            "Poison",
+            "Rock"
+          ]
+    
+    },
+    {
+        "id":13,
+        "name":"Butterfree",
+        "height": "5.71 m",
+        "weight": "23.9 kg",
+        "type": [
+            "Poison",
+            "Rock"
+          ]
+    
+    },
+    {
+        "id":14,
+        "name":"Weedle",
+        "height": "8.71 m",
+        "weight": "43.9 kg",
+        "type": [
+            "Grass",
+            "Poison",
+            "Rock"
+          ]
+    
+    },
+    {
+        "id":15,
+        "name":"Arbok",
+        "height": "2.71 m",
+        "weight": "65.9 kg",
+        "type": ["Fire",
+        "Poison"]
+    },
+    {
+        "id":16,
+        "name":"Ekans",
+        "height": "4.71 m",
+        "weight": "93.9 kg",
+        "type": "Water"
+    },
+    {
+        "id":17,
+        "name":"Spearow",
+        "height": "0.71 m",
+        "weight": "89.9 kg",
+        "type": "Wind"
+    },
+    {
+        "id":18,
+        "name":"Rattata",
+        "height": "2.71 m",
+        "weight": "55.9 kg",
+        "type": "Fire"
+    },
+    {
+        "id":19,
+        "name":"Charmander",
+        "height": "8.71 m",
+        "weight": "83.4 kg",
+        "type": "Poison"
+    },
+    {
+        "id":20,
+        "name":"Pidgey",
+        "height": "4.78 m",
+        "weight": "63.9 kg",
+        "type": "Wind"
+    }
+]
